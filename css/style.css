@@ -1,0 +1,96 @@
+.container {
+	display: flex;
+	justify-content: space-between;
+	padding: 100px;
+	padding-bottom: 0px;
+    padding-top: 0px;
+}
+.image-width {
+	width: 500px;
+	margin-top: 50px;
+}
+/*----- About -------- */
+
+.half-width {
+	width: 50%;
+	margin: 0px;
+}
+.feature {
+	margin: 5px;
+	padding-top: 20px;
+}
+h1 {
+	font-size: 40px;
+}
+p {
+	font-size: 15px;
+}
+h4 {
+	font-size: 20px;
+}
+button {
+	font-size: 16px;
+	padding: 5px;
+}
+button:hover {
+	color: white;
+	background-color: black;
+	cursor: pointer;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+}
+.Memory-about,
+.storage-about,
+.delivery-about {
+	display: flex;
+}
+.space {
+	margin-left: 4px;
+}
+.price-half-width {
+	width: 50%;
+}
+.price {
+	display: flex;
+	justify-content: space-between;
+	height: 50px;
+}
+hr {
+	margin-top: 24.5px;
+	margin-bottom: -20px;
+}
+#hr-style {
+	height: 2px;
+	background: black;
+}
+.promo-code {
+	display: flex;
+	justify-content: space-between;
+	width: 50%;
+}
+.input {
+	height: 40px;
+	width: 250px;
+}
+.apply-btn {
+	color: white;
+	background-color: red;
+	padding: 12px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+}
+.apply-btn:hover {
+	background-color: green;
+}
+/*---------Footer--------*/
+
+footer {
+	text-align: center;
+	font-size: 30px;
+}
